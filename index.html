@@ -13,7 +13,7 @@
         height: 100%;
         padding: 0;
         margin: 0;
-        background: #000;
+        background: rgb(0, 0, 0);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -39,14 +39,14 @@
         margin: auto;
         height: 500px;
         width: 500px;
-        animation: animate 1.3s infinite;
+        animation: animate 0.5s infinite;
       }
 
       #pinkboard:before,
       #pinkboard:after {
         content: '';
         position: absolute;
-        background: #ff5ca4;
+        background: #000000;
         width: 100px;
         height: 160px;
         border-top-left-radius: 50px;
@@ -311,7 +311,7 @@
           }
           context.closePath();
           // create the fill
-          context.fillStyle = '#FF5CA4';
+          context.fillStyle = '#FFFFFF';
           context.fill();
           // create the image
           var image = new Image();
@@ -369,7 +369,7 @@
       ,
       style="background-color:rgb(0, 0, 0);
         width: 100%;
-        color: rgb(225, 12, 168);
+        color: rgb(13, 168, 78);
         height:100%;
         font-size: 31px;
         font-style: italic;
@@ -379,7 +379,7 @@
         margin-bottom: 5px;
         text-align: center;"
     >
-      My đẹt ti ni, không thân =)))
+      Đang nhức đầu, làm chơi thôi =)))
     </div>
   </body>
 </html>
